@@ -8,6 +8,7 @@ describe PagesController do
       get 'home'
       response.should be_success
     end
+  end
 
     it "should have the right title" do
       get 'home'
@@ -21,6 +22,7 @@ describe PagesController do
       get 'contact'
       response.should be_success
     end
+  end
 
     it "should have the right title" do
       get 'contact'
@@ -36,6 +38,7 @@ describe PagesController do
       get 'about'
       response.should be_success
     end
+  end
 
     it "should have the right title" do
       get 'about'
