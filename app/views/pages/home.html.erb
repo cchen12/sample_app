@@ -1,5 +1,3 @@
-<h1>Sample App</h1>
-
 <% if signed_in? %>
   <table class="front" summary="For signed-in users">
     <tr>
@@ -10,10 +8,11 @@
       </td>
       <td class="sidebar round">
         <%= render 'shared/user_info' %>
+        <%= render 'shared/stats' %>
       </td>
     </tr>
   </table>
-<% else %>
+<% else %>        
   <h1>Sample App</h1>
 
   <p>
